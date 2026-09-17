@@ -1,0 +1,782 @@
+{
+  "subject": "Lori Koch",
+  "run_timestamp": "2026-08-17T19:35:45.497862+00:00",
+  "inputs": {
+    "email": "lori.d.koch@dupont.com",
+    "phone": null,
+    "username": "lori.koch",
+    "domain": "dupont.com"
+  },
+  "normalized": {
+    "email": {
+      "valid": true,
+      "email": "lori.d.koch@dupont.com",
+      "error": null
+    }
+  },
+  "modules": {
+    "maigret": {
+      "tool": "maigret",
+      "ok": true,
+      "found": [
+        "Instagram",
+        "Threads",
+        "Calendly",
+        "TikTok",
+        "Pbase",
+        "Vivino",
+        "picturepush.com",
+        "Chatujme.cz",
+        "Picuki",
+        "PatientsLikeMe",
+        "Salon24.pl"
+      ],
+      "confidence": {
+        "Instagram": "exact",
+        "Threads": "exact",
+        "Calendly": "exact",
+        "TikTok": "exact",
+        "Pbase": "exact",
+        "Vivino": "exact",
+        "picturepush.com": "exact",
+        "Chatujme.cz": "exact",
+        "Picuki": "exact",
+        "PatientsLikeMe": "exact",
+        "Salon24.pl": "exact"
+      },
+      "raw": {
+        "report_lori.koch_simple.json": {
+          "Instagram": {
+            "site": {
+              "tags": [
+                "networking",
+                "photo",
+                "social"
+              ],
+              "checkType": "message",
+              "urlProbe": "https://www.instagram.com/api/v1/users/web_profile_info/?username={username}",
+              "headers": {
+                "x-ig-app-id": "936619743392459",
+                "referer": "https://www.instagram.com/"
+              },
+              "presenseStrs": [
+                "\"biography\""
+              ],
+              "absenceStrs": [
+                "Sorry, this page isn&#39;t available.",
+                "dialog-404"
+              ],
+              "errors": {
+                "Login • Instagram": "Login required",
+                "\"routePath\":\"\\/\"": "Login required (rate-limited or session blocked)",
+                "Please wait a few minutes before you try again.": "Rate limited"
+              },
+              "alexaRank": 4,
+              "urlMain": "https://www.instagram.com/",
+              "url": "https://www.instagram.com/{username}/",
+              "usernameClaimed": "cristiano",
+              "usernameUnclaimed": "noonewouldeverusethis77777",
+              "protection": [
+                "tls_fingerprint"
+              ]
+            },
+            "username": "lori.koch",
+            "keywords": [],
+            "parsing_enabled": true,
+            "url_main": "https://www.instagram.com/",
+            "cookies": null,
+            "url_user": "https://www.instagram.com/lori.koch/",
+            "url_probe": "https://www.instagram.com/api/v1/users/web_profile_info/?username=lori.koch",
+            "ids_usernames": {
+              "lori.koch": "username"
+            },
+            "ids_links": [],
+            "status": {
+              "username": "lori.koch",
+              "site_name": "Instagram",
+              "url": "https://www.instagram.com/lori.koch/",
+              "status": "Claimed",
+              "ids": {
+                "username": "lori.koch",
+                "fullname": "Lori Soderberg Koch",
+                "id": "1443082075",
+                "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.2885-19/449802853_1149703382749090_4784505799446104123_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zMjAuYzIifQ&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gEtHWOrB8uT2XSgcMba9aVxhovtsdEpoZLTOXbVR_6Am7mqQkt8Rc9AdeW1Ra6Yq7o&_nc_ohc=VvZt0JoVHAQQ7kNvwHEfjED&_nc_gid=81s74imp49OTyGd6LYWK-Q&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQGdl9YmvpndAAo6iY9j_ckqA1eXNg9WKx9UI-ThP1Cw2g&oe=6A894EC7&_nc_sid=8b3546",
+                "bio": "Travel and see all the good in the world! ✈️ 40🌎",
+                "facebook_uid": "17841400302272548",
+                "is_business": "False",
+                "is_joined_recently": "False",
+                "is_private": "True",
+                "is_verified": "False",
+                "follower_count": "170",
+                "following_count": "196",
+                "_extractor": "Instagram GraphQL"
+              },
+              "tags": [
+                "networking",
+                "photo",
+                "social"
+              ],
+              "keywords": [],
+              "keyword_match_status": "No Keywords"
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 4
+          },
+          "Threads": {
+            "site": {
+              "url": "https://www.threads.com/@{username}",
+              "urlMain": "https://www.threads.com/",
+              "checkType": "message",
+              "absenceStrs": [
+                "<title>Threads • Log in</title>",
+                "content=\"https://www.threads.com/login"
+              ],
+              "presenseStrs": [
+                "og:type\" content=\"profile"
+              ],
+              "headers": {
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "usernameClaimed": "zuck",
+              "usernameUnclaimed": "noonewouldeverusethis7",
+              "alexaRank": 409,
+              "tags": [
+                "social"
+              ],
+              "protection": [
+                "tls_fingerprint"
+              ]
+            },
+            "username": "lori.koch",
+            "keywords": [],
+            "parsing_enabled": true,
+            "url_main": "https://www.threads.com/",
+            "cookies": null,
+            "url_user": "https://www.threads.com/@lori.koch",
+            "url_probe": "https://www.threads.com/@lori.koch",
+            "ids_usernames": {
+              "lori.koch": "username"
+            },
+            "ids_links": [],
+            "status": {
+              "username": "lori.koch",
+              "site_name": "Threads",
+              "url": "https://www.threads.com/@lori.koch",
+              "status": "Claimed",
+              "ids": {
+                "fullname": "Lori Soderberg Koch",
+                "username": "lori.koch",
+                "follower_count": "24",
+                "posts_count": "0",
+                "_extractor": "Threads"
+              },
+              "tags": [
+                "social"
+              ],
+              "keywords": [],
+              "keyword_match_status": "No Keywords"
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 409
+          },
+          "Calendly": {
+            "site": {
+              "tags": [
+                "business",
+                "us"
+              ],
+              "checkType": "status_code",
+              "presenseStrs": [
+                "profile",
+                " User"
+              ],
+              "absenceStrs": [
+                "The page you are looking for could not be found"
+              ],
+              "urlMain": "https://calendly.com",
+              "url": "https://calendly.com/{username}",
+              "urlProbe": "https://calendly.com/api/booking/profiles/{username}",
+              "usernameClaimed": "john",
+              "usernameUnclaimed": "noonewouldeverusethis7",
+              "alexaRank": 145
+            },
+            "username": "lori.koch",
+            "keywords": [],
+            "parsing_enabled": true,
+            "url_main": "https://calendly.com",
+            "cookies": null,
+            "url_user": "https://calendly.com/lori.koch",
+            "url_probe": "https://calendly.com/api/booking/profiles/lori.koch",
+            "ids_usernames": {
+              "lori": "username"
+            },
+            "ids_links": [],
+            "status": {
+              "username": "lori.koch",
+              "site_name": "Calendly",
+              "url": "https://calendly.com/lori.koch",
+              "status": "Claimed",
+              "ids": {
+                "uid": "23386",
+                "fullname": "Lori Kennedy RHN",
+                "username": "lori",
+                "bio": "Welcome to my scheduling page. Please follow the instructions to add an event to my calendar.",
+                "owner_uuid": "979a9834fb11959cdd5624920f4d3166",
+                "organization_uuid": "HDDGECFAPO7ONUDU",
+                "timezone": "America/New_York",
+                "_extractor": "Calendly"
+              },
+              "tags": [
+                "business",
+                "us"
+              ],
+              "keywords": [],
+              "keyword_match_status": "No Keywords"
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 145
+          },
+          "TikTok": {
+            "site": {
+              "tags": [
+                "social",
+                "video"
+              ],
+              "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+              },
+              "errors": {
+                "tiktok-verify-page": "Captcha detected"
+              },
+              "checkType": "message",
+              "presenseStrs": [
+                "\"nickname\":"
+              ],
+              "absenceStrs": [
+                "serverCode\":404"
+              ],
+              "alexaRank": 24,
+              "urlMain": "https://www.tiktok.com/",
+              "url": "https://www.tiktok.com/@{username}",
+              "usernameClaimed": "red",
+              "usernameUnclaimed": "noonewouldeverusethis1"
+            },
+            "username": "lori.koch",
+            "keywords": [],
+            "parsing_enabled": true,
+            "url_main": "https://www.tiktok.com/",
+            "cookies": null,
+            "url_user": "https://www.tiktok.com/@lori.koch",
+            "url_probe": "https://www.tiktok.com/@lori.koch",
+            "ids_usernames": {
+              "lori.koch": "username"
+            },
+            "ids_links": [],
+            "status": {
+              "username": "lori.koch",
+              "site_name": "TikTok",
+              "url": "https://www.tiktok.com/@lori.koch",
+              "status": "Claimed",
+              "ids": {
+                "tiktok_id": "6982699950036009990",
+                "tiktok_username": "lori.koch",
+                "fullname": "lori.koch",
+                "image": "https://p16-common-sign.tiktokcdn-us.com/musically-maliva-obj/1594805258216454~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=b86cbbaf&x-expires=1787166000&x-signature=VCQBKGGtB4yDx8a%2Fh3E24nrWrvI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
+                "is_verified": "False",
+                "is_secret": "False",
+                "sec_uid": "MS4wLjABAAAA1w1TzAdfbkB0JfoEc2nn0jh53htczoYK2yIucukNblhNuOVKqFrR-bqV2N167QTS",
+                "following_count": "1",
+                "follower_count": "5",
+                "heart_count": "0",
+                "video_count": "0",
+                "digg_count": "0",
+                "_extractor": "TikTok"
+              },
+              "tags": [
+                "social",
+                "video"
+              ],
+              "keywords": [],
+              "keyword_match_status": "No Keywords"
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 24
+          },
+          "Pbase": {
+            "site": {
+              "tags": [
+                "art",
+                "photo",
+                "sharing"
+              ],
+              "checkType": "message",
+              "absenceStrs": [
+                "Unknown Artist</title>"
+              ],
+              "alexaRank": 1388,
+              "urlMain": "https://pbase.com/",
+              "url": "https://pbase.com/{username}/profile",
+              "usernameClaimed": "adam",
+              "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "lori.koch",
+            "keywords": [],
+            "parsing_enabled": true,
+            "url_main": "https://pbase.com/",
+            "cookies": null,
+            "url_user": "https://pbase.com/lori.koch/profile",
+            "url_probe": "https://pbase.com/lori.koch/profile",
+            "status": {
+              "username": "lori.koch",
+              "site_name": "Pbase",
+              "url": "https://pbase.com/lori.koch/profile",
+              "status": "Claimed",
+              "ids": {},
+              "tags": [
+                "art",
+                "photo",
+                "sharing"
+              ],
+              "keywords": [],
+              "keyword_match_status": "No Keywords"
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 1388
+          },
+          "Vivino": {
+            "site": {
+              "tags": [
+                "review",
+                "shopping",
+                "social"
+              ],
+              "checkType": "status_code",
+              "alexaRank": 14969,
+              "urlMain": "https://www.vivino.com/",
+              "url": "https://www.vivino.com/users/{username}",
+              "urlProbe": "https://api.vivino.com/users/{username}",
+              "usernameClaimed": "adam",
+              "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "lori.koch",
+            "keywords": [],
+            "parsing_enabled": true,
+            "url_main": "https://www.vivino.com/",
+            "cookies": null,
+            "url_user": "https://www.vivino.com/users/lori.koch",
+            "url_probe": "https://api.vivino.com/users/lori.koch",
+            "status": {
+              "username": "lori.koch",
+              "site_name": "Vivino",
+              "url": "https://www.vivino.com/users/lori.koch",
+              "status": "Claimed",
+              "ids": {},
+              "tags": [
+                "review",
+                "shopping",
+                "social"
+              ],
+              "keywords": [],
+              "keyword_match_status": "No Keywords"
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 14969
+          },
+          "picturepush.com": {
+            "site": {
+              "absenceStrs": [
+                ".stage img"
+              ],
+              "presenseStrs": [
+                "loginname"
+              ],
+              "url": "https://{username}.picturepush.com/",
+              "urlMain": "https://picturepush.com",
+              "usernameClaimed": "yoskark",
+              "usernameUnclaimed": "noonewouldeverusethis7",
+              "checkType": "message",
+              "tags": [
+                "photo",
+                "sharing"
+              ],
+              "alexaRank": 19600
+            },
+            "username": "lori.koch",
+            "keywords": [],
+            "parsing_enabled": true,
+            "url_main": "https://picturepush.com",
+            "cookies": null,
+            "url_user": "https://lori.koch.picturepush.com/",
+            "url_probe": "https://lori.koch.picturepush.com/",
+            "status": {
+              "username": "lori.koch",
+              "site_name": "picturepush.com",
+              "url": "https://lori.koch.picturepush.com/",
+              "status": "Claimed",
+              "ids": {},
+              "tags": [
+                "photo",
+                "sharing"
+              ],
+              "keywords": [],
+              "keyword_match_status": "No Keywords"
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 19600
+          },
+          "Chatujme.cz": {
+            "site": {
+              "checkType": "message",
+              "absenceStrs": [
+                "nelze zobrazit"
+              ],
+              "alexaRank": 32166,
+              "urlMain": "https://chatujme.cz/",
+              "url": "https://profil.chatujme.cz/{username}",
+              "usernameClaimed": "david",
+              "usernameUnclaimed": "noonewouldeverusethis",
+              "tags": [
+                "cz",
+                "dating"
+              ]
+            },
+            "username": "lori.koch",
+            "keywords": [],
+            "parsing_enabled": true,
+            "url_main": "https://chatujme.cz/",
+            "cookies": null,
+            "url_user": "https://profil.chatujme.cz/lori.koch",
+            "url_probe": "https://profil.chatujme.cz/lori.koch",
+            "status": {
+              "username": "lori.koch",
+              "site_name": "Chatujme.cz",
+              "url": "https://profil.chatujme.cz/lori.koch",
+              "status": "Claimed",
+              "ids": {},
+              "tags": [
+                "cz",
+                "dating"
+              ],
+              "keywords": [],
+              "keyword_match_status": "No Keywords"
+            },
+            "http_status": 404,
+            "is_similar": false,
+            "rank": 32166
+          },
+          "Picuki": {
+            "site": {
+              "tags": [
+                "apps",
+                "social",
+                "video"
+              ],
+              "checkType": "message",
+              "presenseStrs": [
+                "profile-info",
+                "engagement-circle-wrapper"
+              ],
+              "absenceStrs": [
+                "<title>Error 404</title>",
+                "<title>Error 500</title>"
+              ],
+              "alexaRank": 27068,
+              "urlMain": "https://www.tikvib.com/",
+              "url": "https://www.tikvib.com/profile/{username}",
+              "source": "TikTok",
+              "usernameClaimed": "khaby.lame",
+              "usernameUnclaimed": "noonewouldeverusethis7zzz",
+              "protection": [
+                "cf_js_challenge"
+              ]
+            },
+            "username": "lori.koch",
+            "keywords": [],
+            "parsing_enabled": true,
+            "url_main": "https://www.tikvib.com/",
+            "cookies": null,
+            "url_user": "https://www.tikvib.com/profile/lori.koch",
+            "url_probe": "https://www.tikvib.com/profile/lori.koch",
+            "status": {
+              "username": "lori.koch",
+              "site_name": "Picuki [TikTok]",
+              "url": "https://www.tikvib.com/profile/lori.koch",
+              "status": "Claimed",
+              "ids": {},
+              "tags": [
+                "apps",
+                "social",
+                "video"
+              ],
+              "keywords": [],
+              "keyword_match_status": "No Keywords"
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 27068
+          },
+          "PatientsLikeMe": {
+            "site": {
+              "tags": [
+                "medicine",
+                "us"
+              ],
+              "checkType": "response_url",
+              "alexaRank": 26919,
+              "urlMain": "https://www.patientslikeme.com",
+              "url": "https://www.patientslikeme.com/members/{username}",
+              "usernameClaimed": "fabu007",
+              "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "lori.koch",
+            "keywords": [],
+            "parsing_enabled": true,
+            "url_main": "https://www.patientslikeme.com",
+            "cookies": null,
+            "url_user": "https://www.patientslikeme.com/members/lori.koch",
+            "url_probe": "https://www.patientslikeme.com/members/lori.koch",
+            "status": {
+              "username": "lori.koch",
+              "site_name": "PatientsLikeMe",
+              "url": "https://www.patientslikeme.com/members/lori.koch",
+              "status": "Claimed",
+              "ids": {},
+              "tags": [
+                "medicine",
+                "us"
+              ],
+              "keywords": [],
+              "keyword_match_status": "No Keywords"
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 26919
+          },
+          "Salon24.pl": {
+            "site": {
+              "regexCheck": "^[^\\u3040-\\u30ff\\u3400-\\u4dbf\\u4e00-\\u9fff\\uac00-\\ud7af\\uf900-\\ufaff]+$",
+              "checkType": "message",
+              "presenseStrs": [
+                "- salon24.pl</title>"
+              ],
+              "url": "https://www.salon24.pl/u/{username}/",
+              "urlMain": "https://www.salon24.pl",
+              "usernameClaimed": "test",
+              "usernameUnclaimed": "noonewouldeverusethis7",
+              "alexaRank": 64119,
+              "tags": [
+                "blog",
+                "discussion",
+                "news",
+                "pl"
+              ]
+            },
+            "username": "lori.koch",
+            "keywords": [],
+            "parsing_enabled": true,
+            "url_main": "https://www.salon24.pl",
+            "cookies": null,
+            "url_user": "https://www.salon24.pl/u/lori.koch/",
+            "url_probe": "https://www.salon24.pl/u/lori.koch/",
+            "status": {
+              "username": "lori.koch",
+              "site_name": "Salon24.pl",
+              "url": "https://www.salon24.pl/u/lori.koch/",
+              "status": "Claimed",
+              "ids": {},
+              "tags": [
+                "blog",
+                "discussion",
+                "news",
+                "pl"
+              ],
+              "keywords": [],
+              "keyword_match_status": "No Keywords"
+            },
+            "http_status": 404,
+            "is_similar": false,
+            "rank": 64119
+          }
+        }
+      },
+      "error": "Timed out after 60s -- results below are PARTIAL (from 1 identifier(s) checked before the timeout hit; some sites/identifiers may be missing)."
+    },
+    "holehe": {
+      "tool": "holehe",
+      "ok": true,
+      "found": [
+        "office365.com"
+      ],
+      "raw": "Twitter : @palenath\nGithub : https://github.com/megadose/holehe\nFor BTC Donations : 1FHDM49QfZX6pJmhjLE5tB2K6CaTLMZpXZ\n\u001b[H\u001b[J\n****************************\n   lori.d.koch@dupont.com\n****************************\n[+] office365.com\n\n[+] Email used, [-] Email not used, [x] Rate limit\n121 websites checked in 11.02 seconds\nTwitter : @palenath\nGithub : https://github.com/megadose/holehe\nFor BTC Donations : 1FHDM49QfZX6pJmhjLE5tB2K6CaTLMZpXZ\n",
+      "error": null
+    },
+    "hibp": {
+      "tool": "hibp",
+      "ok": true,
+      "breaches": [
+        {
+          "name": "NetProspex",
+          "date": "2016-09-01",
+          "data_classes": [
+            "Email addresses",
+            "Employers",
+            "Job titles",
+            "Names",
+            "Phone numbers",
+            "Physical addresses"
+          ]
+        },
+        {
+          "name": "2844Breaches",
+          "date": "2018-02-19",
+          "data_classes": [
+            "Email addresses",
+            "Passwords"
+          ]
+        },
+        {
+          "name": "Adapt",
+          "date": "2018-11-05",
+          "data_classes": [
+            "Email addresses",
+            "Employers",
+            "Job titles",
+            "Names",
+            "Phone numbers",
+            "Physical addresses",
+            "Social media profiles"
+          ]
+        },
+        {
+          "name": "VerificationsIO",
+          "date": "2019-02-25",
+          "data_classes": [
+            "Dates of birth",
+            "Email addresses",
+            "Employers",
+            "Genders",
+            "Geographic locations",
+            "IP addresses",
+            "Job titles",
+            "Names",
+            "Phone numbers",
+            "Physical addresses"
+          ]
+        },
+        {
+          "name": "NeimanMarcus",
+          "date": "2024-04-14",
+          "data_classes": [
+            "Dates of birth",
+            "Email addresses",
+            "IP addresses",
+            "Names",
+            "Partial credit card data",
+            "Phone numbers",
+            "Physical addresses",
+            "Purchases"
+          ]
+        },
+        {
+          "name": "DemandScience",
+          "date": "2024-02-28",
+          "data_classes": [
+            "Email addresses",
+            "Employers",
+            "Job titles",
+            "Names",
+            "Phone numbers",
+            "Physical addresses",
+            "Social media profiles"
+          ]
+        },
+        {
+          "name": "PitneyBowes",
+          "date": "2026-04-20",
+          "data_classes": [
+            "Email addresses",
+            "Job titles",
+            "Names",
+            "Phone numbers",
+            "Physical addresses"
+          ]
+        },
+        {
+          "name": "CFGI",
+          "date": "2026-03-06",
+          "data_classes": [
+            "Email addresses",
+            "Employers",
+            "Job titles",
+            "Names",
+            "Phone numbers",
+            "Physical addresses"
+          ]
+        }
+      ],
+      "error": null
+    },
+    "spiderfoot": {
+      "tool": "spiderfoot",
+      "ok": true,
+      "findings": [
+        {
+          "generated": 1786995428,
+          "type": "Hacked Email Address",
+          "data": "lori.d.koch@dupont.com [cfgi.com]",
+          "module": "sfp_citadel",
+          "source": "lori.d.koch@dupont.com"
+        },
+        {
+          "generated": 1786995428,
+          "type": "Hacked Email Address",
+          "data": "lori.d.koch@dupont.com [pureincubation.com]",
+          "module": "sfp_citadel",
+          "source": "lori.d.koch@dupont.com"
+        },
+        {
+          "generated": 1786995428,
+          "type": "Hacked Email Address",
+          "data": "lori.d.koch@dupont.com [collection-4-u]",
+          "module": "sfp_citadel",
+          "source": "lori.d.koch@dupont.com"
+        },
+        {
+          "generated": 1786995428,
+          "type": "Hacked Email Address",
+          "data": "lori.d.koch@dupont.com [neimanmarcusgroup.com]",
+          "module": "sfp_citadel",
+          "source": "lori.d.koch@dupont.com"
+        },
+        {
+          "generated": 1786995428,
+          "type": "Hacked Email Address",
+          "data": "lori.d.koch@dupont.com [verifications.io]",
+          "module": "sfp_citadel",
+          "source": "lori.d.koch@dupont.com"
+        }
+      ],
+      "raw": "{\"generated\": 1786995426, \"type\": \"Email Address\", \"data\": \"lori.d.koch@dupont.com\", \"module\": \"SpiderFoot UI\", \"source\": \"lori.d.koch@dupont.com\"},\n{\"generated\": 1786995428, \"type\": \"Hacked Email Address\", \"data\": \"lori.d.koch@dupont.com [cfgi.com]\", \"module\": \"sfp_citadel\", \"source\": \"lori.d.koch@dupont.com\"},\n{\"generated\": 1786995428, \"type\": \"Hacked Email Address\", \"data\": \"lori.d.koch@dupont.com [pureincubation.com]\", \"module\": \"sfp_citadel\", \"source\": \"lori.d.koch@dupont.com\"},\n{\"generated\": 1786995428, \"type\": \"Hacked Email Address\", \"data\": \"lori.d.koch@dupont.com [collection-4-u]\", \"module\": \"sfp_citadel\", \"source\": \"lori.d.koch@dupont.com\"},\n{\"generated\": 1786995428, \"type\": \"Hacked Email Address\", \"data\": \"lori.d.koch@dupont.com [neimanmarcusgroup.com]\", \"module\": \"sfp_citadel\", \"source\": \"lori.d.koch@dupont.com\"},\n{\"generated\": 1786995428, \"type\": \"Hacked Email Address\", \"data\": \"lori.d.koch@dupont.com [verifications.io]\", \"module\": \"sfp_citadel\", \"source\": \"lori.d.koch@dupont.com\"}[]\n",
+      "error": null
+    },
+    "theharvester": {
+      "tool": "theharvester",
+      "ok": true,
+      "emails": [],
+      "hosts": [],
+      "raw": {
+        "cmd": "-d dupont.com -b crtsh,otx,hackertarget,duckduckgo -l 200 -f C:\\Users\\ttpat\\AppData\\Local\\Temp\\tmp1p7ihlet\\result",
+        "hosts": [],
+        "shodan": []
+      },
+      "error": null
+    }
+  }
+}

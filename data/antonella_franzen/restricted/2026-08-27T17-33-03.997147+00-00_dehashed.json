@@ -1,0 +1,30 @@
+{
+  "WARNING": "This file may contain actual breached credentials, including plaintext passwords. Restrict access to this file/folder per your data handling policy. Do not include its contents in shared reports.",
+  "subject": "Antonella Franzen",
+  "run_timestamp": "2026-08-27T17:33:03.997147+00:00",
+  "record_count": 2,
+  "records": [
+    {
+      "email": "antonella.franzen@dupont.com",
+      "address": "974 Centre Road, Wilmington, DE, 19805, US",
+      "company": "DuPont",
+      "database_name": "DemandScience by Pure Incubation",
+      "name": "Antonella Franzen",
+      "phone": "3027743034",
+      "social": "https://www.linkedin.com/in/antonella-franzen-bb5b338/",
+      "url": "http://www.dupont.com",
+      "username": "https://www.linkedin.com/in/antonella-franzen-bb5b338/"
+    },
+    {
+      "email": "antonella.franzen@dupont.com",
+      "address": "974 Centre Road, Wilmington, DE, 19805, US",
+      "company": "DuPont",
+      "database_name": "DemandScience by Pure Incubation",
+      "name": "Antonella Franzen",
+      "phone": "3027743034",
+      "social": "",
+      "url": "dupont.com",
+      "username": ""
+    }
+  ]
+}

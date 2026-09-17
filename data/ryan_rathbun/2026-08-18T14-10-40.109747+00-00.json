@@ -1,0 +1,59 @@
+{
+  "subject": "Ryan Rathbun",
+  "run_timestamp": "2026-08-18T14:10:40.109747+00:00",
+  "inputs": {
+    "email": "ryan.rathbun@dupont.com",
+    "phone": null,
+    "username": "ryan.rathbun",
+    "domain": "dupont.com"
+  },
+  "normalized": {
+    "email": {
+      "valid": true,
+      "email": "ryan.rathbun@dupont.com",
+      "error": null
+    }
+  },
+  "modules": {
+    "maigret": {
+      "tool": "maigret",
+      "ok": false,
+      "found": [],
+      "confidence": {},
+      "raw": null,
+      "error": "Timed out after 10s with no results produced yet."
+    },
+    "holehe": {
+      "tool": "holehe",
+      "ok": true,
+      "found": [],
+      "raw": "",
+      "error": null
+    },
+    "hibp": {
+      "tool": "hibp",
+      "ok": false,
+      "breaches": [],
+      "error": "HTTPSConnectionPool(host='haveibeenpwned.com', port=443): Max retries exceeded with url: /api/v3/breachedaccount/ryan.rathbun@dupont.com?truncateResponse=false (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"
+    },
+    "spiderfoot": {
+      "tool": "spiderfoot",
+      "ok": true,
+      "findings": [],
+      "raw": "{\"generated\": 1787062262, \"type\": \"Email Address\", \"data\": \"ryan.rathbun@dupont.com\", \"module\": \"SpiderFoot UI\", \"source\": \"ryan.rathbun@dupont.com\"}[]\n",
+      "error": null
+    },
+    "theharvester": {
+      "tool": "theharvester",
+      "ok": true,
+      "emails": [],
+      "hosts": [],
+      "raw": {
+        "cmd": "-d dupont.com -b crtsh,otx,hackertarget,duckduckgo -l 200 -f C:\\Users\\ttpat\\AppData\\Local\\Temp\\tmpkoxwmr3b\\result",
+        "hosts": [],
+        "shodan": []
+      },
+      "error": null
+    }
+  }
+}
